@@ -1,0 +1,6 @@
+Puppetfile.lock
+Gemfile.lock
+modules/
+.tmp/
+.librarian/
+.vagrant/
