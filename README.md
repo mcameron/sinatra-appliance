@@ -2,15 +2,12 @@
 
 In here is some puppet manifests and modules for building out a working Sinatra system on a single host.
 
-#if not already installed
-gem install librarian-puppet
-
-# bring down latest versions of the puppet modules
-# only run this the once
-librarian-puppet install
+#Run once
+    gem install librarian-puppet
+    librarian-puppet install
 
 # build the box
-vagrant up
+    vagrant up
 
 # browse to localhost:4567
 
